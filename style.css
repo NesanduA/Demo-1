@@ -1,0 +1,57 @@
+#heading{
+    background-color:black ;
+    color: red;
+    text-align: center;
+}
+
+.paragraf{
+    background-color:black ;
+    color:white ;
+    padding: 20px;
+    margin: 50px;
+
+}
+
+.btn-login{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    width: 500px;
+    margin-left: 40%;
+
+}
+
+.btn-login:hover{
+    background-color: aqua;
+}
+
+.btn-login:active{
+    background-color: black;
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/1169630303/photo/blue-textured-background.webp?b=1&s=170667a&w=0&k=20&c=tI2xFhXqXFqMM0IvxSYY3F7LIwv450h2ch3yD-lZ9HU=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.box1{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+}
+
+.box2{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
